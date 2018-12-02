@@ -1,0 +1,44 @@
+{
+  "name": "meituan",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "ajv": "^6.5.4",
+    "ajv-keywords": "^3.2.0",
+    "circular-json": "^0.5.9",
+    "dependencies": "0.0.1",
+    "node-pre-gyp": "^0.10.3",
+    "peer": "^0.2.10",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-scripts": "2.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint --ext .js,.react src --fix"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {
+    "node-sass": "^4.10.0",
+    "react-redux": "^5.1.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "sass-loader": "^7.1.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

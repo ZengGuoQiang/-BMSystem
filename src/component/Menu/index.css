@@ -1,0 +1,21 @@
+.Navul{
+    width:100%;
+    height:auto;
+    margin:0;
+}
+
+.NavA{
+    display: block;
+    width:100%;
+    line-height: 25px;
+    background:#1f61f6;
+    padding:0;
+    float:left;
+    }
+.NavB{
+    display: block;
+    width:100%;
+    line-height: 25px;
+    padding:0;
+    float:left;
+    } 
