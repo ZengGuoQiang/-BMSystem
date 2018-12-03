@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import MenuList from './menu.json';
-import './index.scss';
-import './index.css';
+import './menu.scss';
+// import './index.css';
 
 class Menu extends Component {
     constructor (props) {
@@ -16,7 +16,7 @@ class Menu extends Component {
     getMenu(MenuLists) {
         if (MenuLists === null) { return " "; }
         return (
-            <ul className="">
+            <ul className="Navul">
                 { MenuLists.map(item => {
                     return (
                         <li className="Nav">
