@@ -130,6 +130,7 @@
             2,
             "never"
         ],
+        "no-console": 0,
         "no-const-assign": 2
     }
 }
